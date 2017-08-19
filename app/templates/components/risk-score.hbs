@@ -1,0 +1,11 @@
+<div>-------- Risk Score --------</div>
+<span>{{scoreInfo.scoreTitle}}</span>
+<br/>
+<span>{{scoreInfo.factorsTitle}}</span>
+<br/>
+<ul>
+  {{#each scoreInfo.factors as |factor|}}
+    <li>{{factor}}</li>
+  {{/each}}
+</ul>
+{{yield}}
