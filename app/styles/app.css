@@ -2,6 +2,10 @@
   background: #000245; 
 }
 
+.bg-main-light {
+  background-color: #E4E8EF;
+}
+
 .font-main-strong {
   color: #000245;
 }

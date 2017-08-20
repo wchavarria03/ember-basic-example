@@ -1,24 +1,55 @@
 /* Header*/
-.menu > li {
+.menu > li, .menu > li > a{
   display: inline !important;
-  size: 18pt;
-  font-family: merloneue_medium;
+  font-size: 18pt;
+  font-family: merlo_neuemedium;
   color:#000245;
 }
 
-.menu > li:hover {
+.menu > li:hover, .nav > li:hover, .navbar-nav>li>a:hover, .nav>li>a:hover {
   color: #FF5050;
+  background-color: #ffffff;
 }
 
-.menu > li:active {
-  font-family: merloneue_semibold;
+.menu > li:active, .nav > li:active, .navbar-nav>li>a:active, .nav>li>a:focus {
+  font-family: merlo_neuesemi_bold;
   color:#FF3636;
+  background-color: #ffffff;
 }
+
+.logo {
+  height: 130px;
+  widows: 100px;
+}
+
 
 
 /* Title*/
 .title-main {
   margin-top: 129px;
+  font-size: 44pt;
   color: #000245;
-  font-family: merlo_neueblack
+  font-family: merlo_neuebold_italic
 }
+
+/*
+- kaleidossmooth
+- merlo_neueblack
+- merlo_neueblack_italic
+- merlo_neuebold
+- merlo_neuebold_italic
+- merlo_neueextra_light
+- merlo_neueextra_light_italic
+- merlo_neuehairline
+- merlo_neuehairline_italic
+- merlo_neueitalic
+- merlo_neuelight
+- merlo_neuelight_italic
+- merlo_neuemedium
+- merlo_neuemedium_italic
+- merlo_neueregular
+- merlo_neuesemi_bold
+- merlo_neuesemi_bold_italic
+- merlo_neuethin
+- merlo_neuethin_italic
+*/
