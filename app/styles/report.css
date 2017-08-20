@@ -1,0 +1,109 @@
+/* Company Info*/
+.bussinessName {
+  font-family: Kaleidos;
+  font-size: 38pt;
+  color: #000245;
+}
+
+.info-label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 16pt;
+  font-family: merloneue_bolditalic;
+  margin-top: 40px;
+}
+
+.other-company-info {
+  font-size: 28pt;
+  font-family: merloneue_regular;
+  color: #000245;
+}
+
+
+
+
+.arrow-red {
+  background-color: #FF3636;
+}
+
+.arrow-red:hover {
+  background-color: #FF5050;
+}
+
+.arrow-ring {
+  width: 40px;
+  height: 40px;
+  font-size: 20pt;
+  color: #FFFFFF;
+
+  border-radius: 50%;
+  display: inline-table;
+  text-align: center;
+  vertical-align: middle;  
+}
+
+/* Report Counter */
+.counter-red { 
+  background-color: #FF3636;
+}
+.counter-ring {
+  width: 250px;
+  height: 250px;
+  font-size: 20pt;
+  color: #FFFFFF;
+
+  border-radius: 50%;
+  display: inline-table;
+  text-align: center;
+  vertical-align: middle;
+  bottom: 0px;
+}
+
+.counter-update {
+  margin-top: 20px;
+  font-size: 16pt;
+  font-family: merloneue_bolditalic;
+  color: #FFFFFF;
+}
+
+.counter-update-number {
+  font-size: 140pt;
+  font-family: kaleidos;
+  color: #FFFFFF;
+}
+
+.counter-update-days {
+  font-family: merloneue_semibolditalic;
+  color: #ffffff;
+}
+
+/* Spacing */
+.company-details-bottom-space {
+  margin-bottom: 80px;
+}
+
+
+/*Score Info*/
+.score-title {
+  margin-top:60px;
+}
+
+.score-factors-title {
+  margin-top: 40px;
+  font-size: 16pt;
+  font-family: merloneue_bolditalic;
+  color: #FF3636;
+  margin-bottom: 15px;
+}
+
+.factor-symbol {
+  color: #FF3636;
+  font-size: 24pt;
+  margin-top: 15px;
+}
+.factor-reason {
+  margin-top: 30px;
+  font-family: merloneue_regular;
+  font-size: 24pt;
+  color: #ffffff;
+}

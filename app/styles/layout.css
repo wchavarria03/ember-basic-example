@@ -1,0 +1,24 @@
+/* Header*/
+.menu > li {
+  display: inline !important;
+  size: 18pt;
+  font-family: merloneue_medium;
+  color:#000245;
+}
+
+.menu > li:hover {
+  color: #FF5050;
+}
+
+.menu > li:active {
+  font-family: merloneue_semibold;
+  color:#FF3636;
+}
+
+
+/* Title*/
+.title-main {
+  margin-top: 129px;
+  color: #000245;
+  font-family: merlo_neueblack
+}

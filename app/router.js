@@ -7,8 +7,12 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('reports');
-  this.route('account-settings');
+  this.route('app', function() {
+    this.route('index', { path: ''},function() {
+      this.route('settings', { path: 'settings'});
+      this.route('reports', { path: 'reports'});
+    });
+  });
 });
 
 export default Router;

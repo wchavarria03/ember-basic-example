@@ -1,0 +1,28 @@
+.bg-main-strong {
+  background: #000245; 
+}
+
+.font-main-strong {
+  color: #000245;
+}
+
+.font-secondary-strong {
+  color: #FF3636;
+}
+
+.font-third-strong {
+  color: #FF5050;
+}
+
+.font-main-light {
+  color: #FFFFFF;
+}
+
+.font-secondary-light {
+  color: #E4E8EF;
+}
+
+.font-third-light {
+  color: #768CAD;
+}
+
