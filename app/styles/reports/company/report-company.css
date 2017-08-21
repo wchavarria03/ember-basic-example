@@ -1,42 +1,20 @@
-/*
-- kaleidossmooth
-- merlo_neueblack
-- merlo_neueblack_italic
-- merlo_neuebold
-- merlo_neuebold_italic
-- merlo_neueextra_light
-- merlo_neueextra_light_italic
-- merlo_neuehairline
-- merlo_neuehairline_italic
-- merlo_neueitalic
-- merlo_neuelight
-- merlo_neuelight_italic
-- merlo_neuemedium
-- merlo_neuemedium_italic
-- merlo_neueregular
-- merlo_neuesemi_bold
-- merlo_neuesemi_bold_italic
-- merlo_neuethin
-- merlo_neuethin_italic
-*/
-
 /* Company Info*/
 .bussinessName {
   font-family: kaleidossmooth;
-  font-size: 38pt;
+  font-size: 30pt;
   color: #000245;
 }
 
 .info-label {
   display: block;
   text-transform: uppercase;
-  font-size: 16pt;
+  font-size: 14pt;
   font-family: merlo_neuebold_italic;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .other-company-info {
-  font-size: 28pt;
+  font-size: 20pt;
   font-family: merlo_neueregular;
   color: #000245;
 }
@@ -61,7 +39,7 @@
   vertical-align: middle;  
 }
 
-/*Tax*/
+/*Tax Area*/
 .tax-ring { 
   width: 170px;
   height: 170px;
@@ -76,30 +54,22 @@
 
 .tax-title {
   text-transform: uppercase;
-  font-size: 16pt;
+  font-size: 14pt;
   font-family: merlo_neuebold_italic;
   color: #FF3636;
-
   padding-top: 20px;
 }
 
 .tax-hashed {
-  display: inline-block;
-  margin-top: 20px;
-  font-size: 24pt;
+  margin-top: 15px;
+  font-size: 16pt;
   font-family: merlo_neueregular;
-  
-  margin-right: 0;
 }
 
 .tax-number {
-  display: inline-block;
-  font-size: 24pt;
   font-family: merlo_neuesemi_bold;
-
-  margin-left: 0;
 }
-
+  
 /* Report Counter */
 .counter-ring {
   width: 250px;
@@ -107,81 +77,38 @@
   font-size: 20pt;
   color: #FFFFFF;
   background-color: #FF3636;
-
   border-radius: 50%;
   text-align: center;
   vertical-align: middle;
 }
-
+  
 .inner-counter {
-  background-image: url("/assets/refresh-date.png");
+  background-image: url("/assets/imgs/refresh-date.png");
   background-size: 230px;
   background-repeat: no-repeat;
 }
 
 .counter-update {
-  margin-top: 20px;
-  font-size: 16pt;
+  margin-top: 10px;
+  font-size: 12pt;
   font-family: merlo_neuebold_italic;
   color: #FFFFFF;
 }
 
 .counter-update-number {
-  font-size: 140pt;
+  font-size: 84pt;
   font-family: kaleidossmooth;
   color: #FFFFFF;
 }
 
 .counter-update-days {
+  font-size: 22pt;
   font-family: merlo_neuesemi_bold_italic;
   color: #ffffff;
+  margin-bottom: 15px;
 }
 
 /* Spacing */
 .company-details-bottom-space {
   margin-bottom: 80px;
-}
-
-
-/*Score Info*/
-.score-title {
-  margin-top:60px;
-  font-family: merlo_neuesemi_bold_italic;
-  font-size: 44pt;
-}
-
-.score-factors-title {
-  margin-top: 40px;
-  font-size: 16pt;
-  font-family: merlo_neuebold_italic;
-  color: #FF3636;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-
-.factor-symbol {
-  color: #FF3636;
-  font-size: 24pt;
-  margin-top: 15px;
-}
-.factor-reason {
-  margin-top: 30px;
-  font-family: merlo_neueregular;
-  font-size: 24pt;
-  color: #ffffff;
-}
-
-/* Powered */
-.powered-area {
-  height: 80px;
-}
-.powered-text {
-  height: 30px;
-  font-size: 18pt;
-  font-family: merlo_neueitalic;
-  display: inline-block;
-}
-.powered-logo {
-  height: 30px;
-  display: inline-block;
 }

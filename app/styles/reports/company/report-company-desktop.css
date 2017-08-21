@@ -1,0 +1,40 @@
+@media only screen and (min-width: 1100px) {
+  /* Company Info*/
+  .bussinessName {
+    font-size: 38pt;
+  }
+
+  .info-label {
+    font-size: 16pt;
+    margin-top: 40px;
+  }
+
+  .other-company-info {
+    font-size: 28pt;
+  }
+
+  /*Tax Area*/
+  .tax-title {
+    font-size: 16pt;
+  }
+
+  .tax-hashed {
+    margin-top: 20px;
+    font-size: 24pt;
+  }
+    
+  /* Report Counter */
+  .counter-update {
+    margin-top: 15px;
+    font-size: 16pt;
+  }
+
+  .counter-update-number {
+    font-size: 110pt;
+  }
+
+  .counter-update-days {
+    font-size: 30pt;
+    margin-bottom: 20px;
+  }
+}

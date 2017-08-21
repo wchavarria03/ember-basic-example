@@ -1,0 +1,55 @@
+/*Score Info*/
+.score-area {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.score-title {
+  font-family: merlo_neuesemi_bold_italic;
+  font-size: 36pt;
+}
+
+.score-factors-title {
+  margin-top: 30px;
+  font-size: 14pt;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-family: merlo_neuebold_italic;
+}
+
+.factor-symbol {
+  color: #FF3636;
+  font-size: 20pt;
+  margin-top: 15px;
+}
+
+.factor-reason {
+  margin-top: 30px;
+  margin-left: 15px;
+  font-family: merlo_neueregular;
+  font-size: 20pt;
+  color: #ffffff;
+}
+
+/* Powered */
+.powered-area {
+  height: 80px;
+  margin-top: 30px;
+}
+.powered-text {
+  height: 30px;
+  font-size: 18pt;
+  font-family: merlo_neueitalic;
+  display: inline-block;
+}
+  .powered-logo {
+  height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.powered-highlighted {
+  font-family: merlo_neuebold_italic;
+  color: #000245;
+}

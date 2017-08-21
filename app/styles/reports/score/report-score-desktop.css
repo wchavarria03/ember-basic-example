@@ -1,0 +1,19 @@
+@media only screen and (min-width: 1100px) {
+  /*Score Info*/
+  .score-factors-title {
+    font-size: 16pt;
+  }
+
+  .factor-symbol {
+    font-size: 24pt;
+  }
+  .factor-reason {
+    font-size: 24pt;
+  }
+
+  /* Powered */
+  .powered-logo {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

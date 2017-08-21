@@ -1,0 +1,29 @@
+.main-nav {
+  height: 50px;
+  margin-top: 20px;
+}
+
+.navbar-item {
+  display: inline-block;
+}
+.menu  > i.hamburger {
+  display: block;
+  font-size: 32pt;
+}
+
+.menu > ul {
+  display: none;
+}
+
+.logo {
+  height: 85px;
+  width: 65px;
+}
+
+/* Title*/
+.title-main {
+  margin-top: 90px;
+  font-size: 36pt;
+  color: #000245;
+  font-family: merlo_neuebold_italic
+}
