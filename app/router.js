@@ -12,6 +12,7 @@ Router.map(function() {
       this.route('settings', { path: 'settings'});
       this.route('reports', { path: '/'});
     });
+    this.route('login');
   });
 });
 
