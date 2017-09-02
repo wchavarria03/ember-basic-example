@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-    beforeModal: function() {
+  beforeModal: function() {
         this.transitionTo('app/reports');
-    }
+  }
 });

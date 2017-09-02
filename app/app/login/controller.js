@@ -1,5 +1,4 @@
 import Ember from 'ember';
-import AuthenticateService from "./service";
 
 export default Ember.Controller.extend({
   actions: {
