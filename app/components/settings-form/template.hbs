@@ -3,14 +3,17 @@
         <form>
           {{#if editingName}}
           <div class="form-group no-margin">
-            <label for="name" class="input-form-label input-form-label-first">Name</label>
-            {{input type="text" value=name class="form-control input-form-field" id="name"}}
-            <button class="settings-btn edit-btn" {{action 'editInfo' 'name'}}>Edit</button>
+            <label for="name" class="input-form-label input-form-label-first">First Name</label>
+            {{input type="text" value=firstName class="form-control settings-account-info input-form-field" id="firstName"}}
+            <label for="name" class="input-form-label input-form-label-first">Last Name</label>
+            {{input type="text" value=lastName class="form-control settings-account-info input-form-field" id="lastName"}}
+            <button class="settings-btn edit-btn" {{action 'editInfo' 'name'}}>Save</button>
+            <button type="button" class="settings-btn edit-btn" {{action 'editInfo' 'name'}}>Cancel</button>
           </div>
           {{else}}
             <div class="form-group no-margin">
               <label for="name" class="input-form-label input-form-label-first">Name</label>
-              {{input type="text" value=name class="form-control input-form-field" id="name"}}
+              <div class="form-control settings-account-info">{{name}}</div>
               <button class="settings-btn edit-btn" {{action 'editInfo' 'name'}}>Edit</button>
             </div>
           {{/if}}
@@ -18,37 +21,62 @@
           {{#if editingEmail}}
             <div class="form-group no-margin">
               <label for="email" class="input-form-label">Email address</label>
-              {{input type="email" value=email class="form-control input-form-field" id="email"}}
-              <button class="settings-btn edit-btn" {{action 'editInfo' 'email'}}>Edit</button>
+              {{input type="email" value=email class="form-control settings-account-info input-form-field" id="email"}}
+              <button class="settings-btn edit-btn" {{action 'editInfo' 'email'}}>Save</button>
+              <button type="button" class="settings-btn edit-btn" {{action 'editInfo' 'email'}}>Cancel</button>
             </div>
           {{else}}
             <div class="form-group no-margin">
               <label for="email" class="input-form-label">Email address</label>
-              {{input type="email" value=email class="form-control input-form-field" id="email"}}
+              <div class="form-control settings-account-info">{{email}}</div>
               <button class="settings-btn edit-btn" {{action 'editInfo' 'email'}}>Edit</button>
             </div>
           {{/if}}
 
           {{#if editingPassword}}
             <div class="form-group no-margin">
-              <label for="pwd" class="input-form-label">Enter Current Password</label>
-              {{input type="password" value=password class="form-control input-form-field" id="password"}}
+              <label for="oldPassword" class="input-form-label">Enter Current Password</label>
+              {{input type="password"
+                      value=oldPassword
+                      class="form-control settings-account-info input-form-field"
+                      id="oldPassword"}}
             </div>
             <div class="form-group no-margin">
-              <label for="pwd" class="input-form-label">New Password (8 character minimum)</label>
-              {{input type="password" value=password class="form-control input-form-field" id="password"}}
+              <label for="newPassword" class="input-form-label">New Password (8 character minimum)</label>
+              <div>
+                {{input type="password"
+                      value=newPassword
+                      key-up="verifyPassword"
+                      class="form-control settings-account-info input-form-field"
+                      id="newPassword"}}
+                {{#if isInvalidPassword}}
+                  <div class="into-input-ring"><i class="fa fa-times into-input into-input-invalid" aria-hidden="true"></i></div>
+                {{else}}
+                  <div class="into-input-ring"><i class="fa fa-check into-input into-input-valid" aria-hidden="true"></i></div>
+                {{/if}}
+              </div>
             </div>
             <div class="form-group no-margin">
-              <label for="pwd" class="input-form-label">Re-enter New Password</label>
-              {{input type="password" value=password class="form-control input-form-field" id="password"}}
-              <button class="settings-btn edit-btn edit-btn-last" {{action 'editInfo' 'password'}}>Save</button>
-              <button class="settings-btn edit-btn" {{action 'editInfo' 'password'}}>Cancel</button>
+              <label for="reNewPassword" class="input-form-label">Re-enter New Password</label>
+              <div>{{input type="password"
+                      value=rePassword
+                      key-up="verifyRePassword"
+                      class="form-control settings-account-info input-form-field"
+                      id="reNewPassword"}}
+                {{#if isInvalidRePassword}}
+                  <i class="fa fa-times into-input into-input-invalid" aria-hidden="true"></i>
+                {{else}}
+                  <i class="fa fa-check into-input into-input-valid" aria-hidden="true"></i>
+                {{/if}}
+              </div>
+              <button class="settings-btn edit-btn edit-btn-last" {{action 'save' 'password'}} disabled={{inValidPasswordChange}}>Save</button>
+              <button type="button" class="settings-btn edit-btn" {{action 'editInfo' 'password'}}>Cancel</button>
             </div>
           {{else}}
             <div class="form-group no-margin">
               <label for="pwd" class="input-form-label">Password</label>
-              {{input type="password" value=password class="form-control input-form-field" id="password"}}
-              <button class="settings-btn edit-btn edit-btn-last" {{action 'editInfo' 'password'}}>Edit</button>
+              <div class="form-control settings-account-info">{{password}}</div>
+              <button type="button" class="settings-btn edit-btn edit-btn-last" {{action 'editInfo' 'password'}}>Edit</button>
             </div>
           {{/if}}
         </form>
