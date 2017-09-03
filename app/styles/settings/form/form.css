@@ -1,0 +1,42 @@
+.settings-btn {
+    font-family: merlo_neuesemi_bold_italic;
+    height: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+
+.edit-btn {
+    margin-top: 20px;
+    width: 60px;
+    color: #000245;
+    border: 1px solid rgba(255, 54, 54, 1);
+    margin-bottom: 60px;
+}
+
+.edit-btn-last {
+    margin-bottom: 60px;
+}
+
+.input-form-label {
+    font-family: merlo_neuemedium;
+    margin-bottom: 10px;
+    color: #000245;
+    font-size: 14px;
+    font-weight: normal
+}
+
+.input-form-label-first {
+    margin-top: 30px;
+}
+
+.input-form-field {
+    height: 40px;
+    color: #000245;
+    font-size: 24px;
+    background-color: rgb(235, 235, 228);
+    border-color: transparent;
+    border-style: none;
+
+}

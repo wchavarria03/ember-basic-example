@@ -1,0 +1,36 @@
+.settings-box {
+    background-color: rgba(255, 54, 54, 1);
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 0px 20px 115px 20px;
+    border-radius: 4px;
+}
+
+.logout-btn {
+    color: rgba(255, 54, 54, 1);
+    display: none;
+}
+
+.settings-title {
+    font-family: merlo_neuesemi_bold_italic;
+    font-size: 26pt;
+    margin-top: 30px;
+    display: block;
+}
+
+.settings-info {
+    margin-top: 20px;
+    font-size: 12pt;
+    display: block;
+    font-family: merlo_neueregular;
+}
+
+.settings-member {
+    font-family: merlo_neuemedium_italic;
+    font-size: 16pt;
+    margin-bottom: 15px;
+}
+
+.settings-id {
+    font-family: merlo_neuesemi_bold_italic;
+}

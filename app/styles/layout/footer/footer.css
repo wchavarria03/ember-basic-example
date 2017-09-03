@@ -1,3 +1,11 @@
+.inSettings {
+    background-color: #000245;;
+}
+
+.inSettings .about-text-link, .inSettings .footer-link, .inSettings .footer-content-right {
+    color: #FFFFFF;
+}
+
 .about-area {
   text-align: center;
 }
@@ -20,7 +28,7 @@
 }
 
 .assistance-box {
-  margin-top: 90px;
+  margin-top: 15px;
   background-color: #E4E8EF;
   border-radius: 10px 0px 0px 10px;
   padding-bottom: 30px;
