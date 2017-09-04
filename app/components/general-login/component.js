@@ -8,7 +8,7 @@ export default Ember.Component.extend({
         this.set('errorMessage', '');
         this.sendAction('loginSucceed');
       } else {
-        this.set('errorMessage', 'Wrong username or password');
+        this.set('errorMessage', 'Wrong username or password. Use "admin/admin"');
       }
     }
   }
