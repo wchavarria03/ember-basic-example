@@ -4,13 +4,29 @@
       <img class="logo" alt="Brand" src="/assets/imgs/xyz-logo.png">
     </a>
     <div class="navbar-item pull-right">
-      <div class="menu">
+      <div class="menu" {{action 'openMobileMenu'}}>
         <i class="fa fa-bars hamburger" aria-hidden="true"></i>
         <ul>
           <li><a href="#" {{action openReports}}>Report</a></li>
           <li><a href="#" {{action openSettings}}>Settings</a></li>
         </ul>
       </div>
+    </div>
+  </div>
+  <div class="mobile-menu-slide" class={{if displayMobileMenu "mobile-menu-slide-open" ""}}>
+    <div class="mobile-menu-close-area">
+      <div class="mobile-menu-close-area-x" {{action "closeMobileMenu"}}>
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="mobile-menu-options-area">
+      <ul class="mobile-menu-option-list">
+        <li><a href="#" class="mobile-menu-option-label" class={{if isReportsOpen "viewDisplayed" ""}} {{action openReports}}>Report</a></li>
+        <li><a href="#" class="mobile-menu-option-label" class={{if isSettingsOpen "viewDisplayed" ""}} {{action openSettings}}>Settings</a></li>
+      </ul>
+    </div>
+    <div class="mobile-menu-logout-area">
+      <button class="settings-btn edit-btn mobile-logout-btn" {{action logout}}>log out of xyz</button>
     </div>
   </div>
 </nav>

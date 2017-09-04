@@ -40,7 +40,7 @@ You will need the following things properly installed on your computer for devel
 * Calculated new Risk score toggle.
 *
 
-## WIP
+## WIP & TODOs
 - Mobile menu at the right.
 - Footer social media icons.
 - Pristine effect on password valid icons.(Entering the view shouldn't display the valid icons).
@@ -51,13 +51,12 @@ You will need the following things properly installed on your computer for devel
 - Fix extra space at the right side in mobile view.
 - Fix menu issue when scroll in mobile view.
 - Report updates in circle content is disordered and misaligned mobile and desktop view.
--
 
 ## Responsive Breakpoints
-SmartPhone: 412w * 700h
-Desktop: >= 1200w * 900h
+- SmartPhone: 412w * 700h
+- Desktop: >= 1200w * 900h
 
 ## Hosted
 Example hosted in the following URL by the next 15 days (From 09/04/2017 - To 09/18/2017)
 
--
+- https://honest-company.herokuapp.com/

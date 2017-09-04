@@ -35,3 +35,78 @@
     color: #000245;
     font-family: merlo_neuebold_italic
 }
+
+
+.mobile-menu-slide {
+    z-index: 2000;
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 120vh;
+    width: 120vw;
+    margin-left: -30px;
+    background-color: #ffffff;
+}
+
+.mobile-menu-slide-open {
+    display: inline;
+}
+
+.mobile-menu-close-area {
+    height: 120vh;
+    width: 18vw;
+    right: 0;
+    background-color: rgb(255, 54, 54);;
+}
+
+.mobile-menu-close-area-x {
+    background-color: #ffffff;
+    padding: 10px;
+    color: rgb(255, 54, 54);
+    top: 20px;
+    display: block;
+    width: 40vw;
+    height: 8vh;
+    position: fixed;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.mobile-menu-close-area-x .fa-times {
+    font-size: 36px;
+    margin-left: 10px;
+}
+
+.mobile-menu-options-area {
+    height: 120vh;
+    width: 82vw;
+    top: 0;
+    position: fixed;
+    margin-left: 70px;
+}
+
+.mobile-menu-option-list {
+    list-style: none;
+}
+
+.mobile-menu-option-label {
+    margin-top: 40px;
+    font-family: merlo_neuemedium;
+    font-size: 18px;
+    display: block;
+    color: black;
+}
+
+.viewDisplayed {
+    font-family: merlo_neuesemi_bold;
+    color: #FF5050;
+}
+
+.mobile-logout-btn {
+    border-radius: 50px !important;
+    top: 87vh;
+    position: fixed;
+    right: 10vh;
+    height: 40px !important;
+    width: 200px !important;
+}

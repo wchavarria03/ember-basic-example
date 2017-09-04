@@ -7,6 +7,10 @@ export default Ember.Controller.extend({
     },
     openReports() {
       this.transitionToRoute('/');
+    },
+    logout() {
+      localStorage.setItem('isAuthenticated', false);
+      this.transitionToRoute('/login');
     }
   }
 });
