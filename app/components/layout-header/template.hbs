@@ -7,8 +7,8 @@
       <div class="menu" {{action 'openMobileMenu'}}>
         <i class="fa fa-bars hamburger" aria-hidden="true"></i>
         <ul>
-          <li><a href="#" {{action openReports}}>Report</a></li>
-          <li><a href="#" {{action openSettings}}>Settings</a></li>
+          <li><a href="#" {{action 'openReports'}}>Report</a></li>
+          <li><a href="#" {{action 'openSettings'}}>Settings</a></li>
         </ul>
       </div>
     </div>
@@ -21,8 +21,8 @@
     </div>
     <div class="mobile-menu-options-area">
       <ul class="mobile-menu-option-list">
-        <li><a href="#" class="mobile-menu-option-label" class={{if isReportsOpen "viewDisplayed" ""}} {{action openReports}}>Report</a></li>
-        <li><a href="#" class="mobile-menu-option-label" class={{if isSettingsOpen "viewDisplayed" ""}} {{action openSettings}}>Settings</a></li>
+        <li><a class="mobile-menu-option-label" class={{if isReportsOpen "viewDisplayed" ""}} {{action 'openReports'}}>Report</a></li>
+        <li><a class="mobile-menu-option-label" class={{if isSettingsOpen "viewDisplayed" ""}} {{action 'openSettings'}}>Settings</a></li>
       </ul>
     </div>
     <div class="mobile-menu-logout-area">

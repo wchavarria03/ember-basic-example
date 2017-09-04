@@ -6,12 +6,14 @@ export default Ember.Component.extend({
   isReportsOpen: true,
   actions: {
     openSettings() {
+      console.log('Open Settings...');
       this.get('openSettings')();
       this.set('displayMobileMenu', false);
       this.set('isSettingsOpen', true);
       this.set('isReportsOpen', false);
     },
     openReports() {
+      console.log('Open Reports...');
       this.get('openReports')();
       this.set('displayMobileMenu', false);
       this.set('isSettingsOpen', false);

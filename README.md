@@ -33,15 +33,19 @@ You will need the following things properly installed on your computer for devel
 * Responsive: Mobile(412w x 700h) and Desktop (1200w x 900h).
 * Reports view and Settings view.
 * Desktop menu.
+* Mobile menu.
+* Logout functionality.
 * Logout Settings option.
 * Settings form edit/save/cancel.
 * Footer color change between Report and Settings.
 * Risk Score How is this Calculated Details toggle.
 * Calculated new Risk score toggle.
-*
 
-## WIP & TODOs
-- Mobile menu at the right.
+
+## WIP
+- Mobile menu transition effect.
+
+## TODOs
 - Footer social media icons.
 - Pristine effect on password valid icons.(Entering the view shouldn't display the valid icons).
 - Add Risk circle in 'Calculated Risk Score' and also in 'Not enough data to calculated Risk Score'.
@@ -51,6 +55,7 @@ You will need the following things properly installed on your computer for devel
 - Fix extra space at the right side in mobile view.
 - Fix menu issue when scroll in mobile view.
 - Report updates in circle content is disordered and misaligned mobile and desktop view.
+
 
 ## Responsive Breakpoints
 - SmartPhone: 412w * 700h
