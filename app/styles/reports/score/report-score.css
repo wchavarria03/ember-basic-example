@@ -1,55 +1,105 @@
 /*Score Info*/
 .score-area {
-  padding-top: 60px;
-  padding-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .score-title {
-  font-family: merlo_neuesemi_bold_italic;
-  font-size: 36pt;
+    font-family: merlo_neuesemi_bold_italic;
+    font-size: 36pt;
 }
 
 .score-factors-title {
-  margin-top: 30px;
-  font-size: 14pt;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-  font-family: merlo_neuebold_italic;
+    margin-top: 30px;
+    font-size: 14pt;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: merlo_neuebold_italic;
 }
 
 .factor-symbol {
-  color: #FF3636;
-  font-size: 20pt;
-  margin-top: 15px;
+    color: #FF3636;
+    font-size: 20pt;
+    margin-top: 15px;
 }
 
 .factor-reason {
-  margin-top: 30px;
-  margin-left: 15px;
-  font-family: merlo_neueregular;
-  font-size: 20pt;
-  color: #ffffff;
+    margin-top: 30px;
+    margin-left: 15px;
+    font-family: merlo_neueregular;
+    font-size: 20pt;
+    color: #ffffff;
 }
 
 /* Powered */
 .powered-area {
-  height: 80px;
-  margin-top: 30px;
+    height: 80px;
+    margin-top: 30px;
 }
+
 .powered-text {
-  height: 30px;
-  font-size: 18pt;
-  font-family: merlo_neueitalic;
-  display: inline-block;
+    height: 30px;
+    font-size: 18pt;
+    font-family: merlo_neueitalic;
+    display: inline-block;
 }
-  .powered-logo {
-  height: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  display: inline-block;
+
+.powered-logo {
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
 }
 
 .powered-highlighted {
-  font-family: merlo_neuebold_italic;
-  color: #000245;
+    font-family: merlo_neuebold_italic;
+    color: #000245;
+}
+
+.score-how-calculated {
+    background-color: #000245;
+    border: 1px solid rgba(255, 54, 54, 1);
+    padding: 5px 15px 4px 15px;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 50px;
+    height: 30px;
+}
+
+.score-how-calculated:hover{
+    border-width: 2px;
+    padding-top: 4px;
+    padding-left: 14px;
+}
+
+.score-how-calculated-text {
+    font-size: 12pt;
+    font-family: merlo_neuesemi_bold_italic;
+    display: inline;
+}
+
+.score-calculated{
+   display: inline-block;
+}
+
+.score-calculate-info-symbol {
+    color: rgba(255, 54, 54, 1);
+}
+
+.score-calculated-info-symbol-bigger {
+    font-size: 20pt;
+    float: left;
+    padding-right: 15px;
+}
+
+.score-calculated-info-separator {
+    border-top: 1px solid rgba(255, 54, 54, 1);
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.score-calculated-text {
+    font-size: 18px;
+    font-family: merlo_neueregular;
+    display: inline;
 }

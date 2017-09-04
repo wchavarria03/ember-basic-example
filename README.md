@@ -28,16 +28,15 @@ You will need the following things properly installed on your computer for devel
 
 
 
-##WIP
-- Main header menu bar on mobile. Sticky. (Verify size)
+## WIP
+- Display login view first
 - Mobile menu at the right.
 - Footer social media icons
-- Report Score expand details
-- Report Score click effect
-- Display login view first
 - Pristine effect on password valid icons.(Entering view dont display icons)
 
+
 - Fix extra space at the right side
+- Fix menu issue when scroll.
 
 SmartPhone: 350w * 560h
 Desktop: >= 1200w * 900h
