@@ -25,3 +25,19 @@ You will need the following things properly installed on your computer for devel
 
 * `ember build` (development)
 * `ember build --environment production` (production)
+
+
+
+##WIP
+- Main header menu bar on mobile. Sticky. (Verify size)
+- Mobile menu at the right.
+- Footer social media icons
+- Report Score expand details
+- Report Score click effect
+- Display login view first
+- Pristine effect on password valid icons.(Entering view dont display icons)
+
+- Fix extra space at the right side
+
+SmartPhone: 350w * 560h
+Desktop: >= 1200w * 900h

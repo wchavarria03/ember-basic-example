@@ -19,6 +19,13 @@
     margin-bottom: 60px;
 }
 
+.cancel-btn {
+    color: rgba(255, 54, 54, 1);
+    border: none;
+    text-transform: none;
+    font-family: merlo_neuemedium_italic;
+}
+
 .input-form-label {
     font-family: merlo_neuemedium;
     margin-bottom: 10px;

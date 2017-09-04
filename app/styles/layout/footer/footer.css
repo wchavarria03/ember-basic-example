@@ -7,74 +7,88 @@
 }
 
 .about-area {
-  text-align: center;
+    text-align: center;
 }
 
 .about-title {
-  font-family: kaleidossmooth;
-  font-size: 36pt; 
-  color: #FF3636;
-  margin-top: 90px;
+    font-family: kaleidossmooth;
+    font-size: 36pt;
+    color: #FF3636;
+    margin-top: 90px;
 }
 
 .about-text-link {
-  font-size: 18pt;
-  font-family: merlo_neueregular;
-  margin-top: 25px;
+    font-size: 18pt;
+    font-family: merlo_neueregular;
+    margin-top: 25px;
 }
 
 .about-text-link:hover {
-  color: #FF5050;
+    color: #FF5050;
 }
 
 .assistance-box {
-  margin-top: 15px;
-  background-color: #E4E8EF;
-  border-radius: 10px 0px 0px 10px;
-  padding-bottom: 30px;
-  padding-top: 20px;
+    margin-top: 15px;
+    background-color: #E4E8EF;
+    border-radius: 10px 0px 0px 10px;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
+
 .assistance-content {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
 .assistance-title {
-  font-size: 34pt;
-  font-family: merlo_neuesemi_bold_italic;
-  color:#000245;
+    font-size: 34pt;
+    font-family: merlo_neuesemi_bold_italic;
+    color: #000245;
+}
+
+.assistance-paragraph {
+    margin-left: 50px;
 }
 
 .assitance-subtitle {
-  margin-top: 30px;
-  font-size: 26pt;
-  font-family: merlo_neuesemi_bold_italic;
-  color: #FF3636;
+    margin-top: 30px;
+    font-size: 26pt;
+    font-family: merlo_neuesemi_bold_italic;
+    color: #FF3636;
 }
 
 .assitance-paragraph {
-  margin-top: 10px;
-  font-size: 14pt;
-  font-family: merlo_neueregular;
-  color: #000245;
+    margin-top: 10px;
+    font-size: 14pt;
+    font-family: merlo_neueregular;
+    color: #000245;
 }
 
 .assitance-paragraph-highlighted {
-  color: #FF3636;
-  font-family: merlo_neuesemi_bold;
+    color: #FF3636;
+    font-family: merlo_neuesemi_bold;
 }
 
 .footer-content-right, .footer-content-left {
-  float: none;
+    float: none;
 }
 
 .footer-link {
-  font-family: merlo_neueregular;
-  font-size: 14pt;
-  display: inline;
+    font-family: merlo_neueregular;
+    font-size: 14pt;
+    display: inline;
 }
 
 .footer-area {
-  margin-left: 20px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.footer-phone-circle {
+    font-size: 18pt;
+    margin-top: 8px;
+}
+
+.footer-circle {
+    font-size: 16pt;
 }
